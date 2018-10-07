@@ -14,32 +14,32 @@ This is an Amazon Lightsail–hosted Linux server featuring my [`Udacity_Catalog
 ## Setup Summary
 
 1. Amazon Lightsail
-  * Created an account
-  * Created an Ubuntu OS instance
-  * Set up a static IP
-  * Configured available ports
-  * Used a key pair to SSH into the server on my computer
+    * Created an account
+    * Created an Ubuntu OS instance
+    * Set up a static IP
+    * Configured available ports
+    * Used a key pair to SSH into the server on my computer
 
 2. Ubuntu Linux server
-  * Checked for server updates
-  * Installed requisite applications listed below
-  * Configured UFW firewall ports
-  * Enabled firewall
-  * Created requested user
-  * Gave requested user admin privileges
-  * Set up key pair for created user
+    * Checked for server updates
+    * Installed requisite applications listed below
+    * Configured UFW firewall ports
+    * Enabled firewall
+    * Created requested user
+    * Gave requested user admin privileges
+    * Set up key pair for created user
 
 3. Apache HTTP server
-  * Installed Apache
-  * Configured the WSGI to import and run the web app
+    * Installed Apache
+    * Configured the WSGI to import and run the web app
 
 4. PostgreSQL database
-  * Created a books database to store catalog data
-  * Set up a db user based on given requirements
-  * Updated web app configuration to connect to database
+    * Created a books database to store catalog data
+    * Set up a db user based on given requirements
+    * Updated web app configuration to connect to database
 
 5. Flask
-  * This web app features a Flask framework, with an SQLAlchemy ORM
+    * This web app features a Flask framework, with an SQLAlchemy ORM
 
 ## Third-Party Resources
 
